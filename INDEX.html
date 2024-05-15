@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empanadas Deliciosas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8f0; /* Color de fondo crema */
+            color: #333;
+        }
+        header {
+            background-color: #ff6b6b; /* Color de fondo rojo */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #ffac81; /* Color de fondo naranja */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff6b6b; /* Cambia el color al rojo al pasar el mouse */
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        section:nth-child(even) {
+            background-color: #ff6b6b; /* Color de fondo rojo */
+            color: #fff;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .menu-item {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Empanadas Deliciosas!</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#menu">Menú</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="inicio">
+        <h2>Bienvenido a nuestra tienda de empanadas</h2>
+        <img src="empanadas_inicio.jpg" alt="Empanadas caseras">
+        <p>¡Las mejores empanadas caseras a tu alcance!</p>
+        <p>Visita nuestro menú para ver todas nuestras deliciosas opciones.</p>
+    </section>
+    <section id="menu">
+        <h2>Nuestro Menú</h2>
+        <div class="menu-item">
+            <img src="empanada_carne.jpg" alt="Empanada de carne">
+            <h3>Empanada de carne</h3>
+            <p>Deliciosa empanada rellena de carne de res.</p>
+        </div>
+        <div class="menu-item">
+            <img src="empanada_pollo.jpg" alt="Empanada de pollo">
+            <h3>Empanada de pollo</h3>
+            <p>Riquísima empanada rellena de pollo y verduras.</p>
+        </div>
+        <div class="menu-item">
+            <img src="empanada_jamon_queso.jpg" alt="Empanada de jamón y queso">
+            <h3>Empanada de jamón y queso</h3>
+            <p>Deléitate con nuestra empanada rellena de jamón y queso.</p>
+        </div>
+        <div class="menu-item">
+            <img src="empanada_vegetariana.jpg" alt="Empanada vegetariana">
+            <h3>Empanada vegetariana</h3>
+            <p>Una opción saludable llena de verduras frescas.</p>
+        </div>
+        <div class="menu-item">
+            <img src="empanada_champinones.jpg" alt="Empanada de champiñones">
+            <h3>Empanada de champiñones</h3>
+            <p>Para los amantes de los champiñones, ¡esta empanada es perfecta!</p>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes encontrarnos en:</p>
+        <p>Dirección: Calle Juan Alvarez, Ciudad Empalme, Sonora</p>
+        <p>Teléfono: 622-456-789</p>
+        <p>Email: loquitas@empanadas.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Empanadas Deliciosas</p>
+    </footer>
+</body>
+</html>
